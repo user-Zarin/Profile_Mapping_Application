@@ -63,50 +63,41 @@ This project is a web application built using the React framework, designed to a
 
 #Project Structure
 
-src/
-├── components/
-│   ├── AdminPanel.jsx       # Admin dashboard for profile management
-│   ├── MapComponent.jsx     # Interactive map component using Mapbox/Google Maps
-│   ├── ProfileCard.jsx      # Displays individual profile cards
-│   ├── ProfileDetails.jsx   # Detailed view of a single profile
-│   ├── SearchBar.jsx        # Search and filter functionality
-├── pages/
-│   ├── ProfileListPage.jsx  # Main page displaying profiles and map
-│   ├── AdminPage.jsx        # Admin page for managing profiles
-├── api/
-│   ├── profileData.js       # API calls for fetching and managing profile data
-├── styles/
-│   ├── App.css              # Global styles
-│   ├── ProfileListPage.css  # Styles for ProfileListPage
-├── App.js                   # Main application component
-├── index.js                 # Entry point
+src/<br>
+├── components/<br>
+│   ├── AdminPanel.jsx       # Admin dashboard for profile management<br>
+│   ├── MapComponent.jsx     # Interactive map component using Mapbox/Google Maps<br>
+│   ├── ProfileCard.jsx      # Displays individual profile cards<br>
+│   ├── ProfileDetails.jsx   # Detailed view of a single profile<br>
+│   ├── SearchBar.jsx        # Search and filter functionality<br>
+├── pages/<br>
+│   ├── ProfileListPage.jsx  # Main page displaying profiles and map<br>
+│   ├── AdminPage.jsx        # Admin page for managing profiles<br>
+├── api/<br>
+│   ├── profileData.js       # API calls for fetching and managing profile data<br>
+├── styles/<br>
+│   ├── App.css              # Global styles<br>
+│   ├── ProfileListPage.css  # Styles for ProfileListPage<br>
+├── App.js                   # Main application component<br>
+├── index.js                 # Entry point<br>
 
 
 ### Features Breakdown
-<b>Profile List Page</b>
-Displays a list of profiles with a search bar at the top.
-Clicking on a profile shows its location on the map.
-A "Summary" button next to each profile dynamically updates the map with a marker at the corresponding address.
-<b>Admin Panel</b>
-Allows admins to add, edit, or delete profiles.
-Validates input data before submission.
-<b>Search and Filter</b>
-Provides an intuitive search bar for filtering profiles by name, location, or description.
-<b>Map Component</b>
-Integrates with Mapbox (or Google Maps) to display interactive maps.
-Dynamically updates markers based on user interaction.
-<b>Technologies Used<b>
+<b>Profile List Page</b><br>
+Displays a list of profiles with a search bar at the top.<br>
+Clicking on a profile shows its location on the map.<br>
+A "Summary" button next to each profile dynamically updates the map with a marker at the corresponding address.<br>
+<b>Admin Panel</b><br>
+Allows admins to add, edit, or delete profiles.<br>
+Validates input data before submission.<br>
+<b>Search and Filter</b><br>
+Provides an intuitive search bar for filtering profiles by name, location, or description.<br>
+<b>Map Component</b><br>
+Integrates with Mapbox (or Google Maps) to display interactive maps.<br>
+Dynamically updates markers based on user interaction.<br>
+<b>Technologies Used<b><br>
 React: Frontend framework
-React Router: For navigation between pages
-Mapbox GL JS: For interactive mapping
-CSS: For responsive styling
-React Hook : For form in the admin panel
-Future Enhancements
-Add support for bulk import/export of profiles.
-Implement user authentication for admin access.
-Enhance map functionality with directions and route planning.
-Contributing
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Commit your changes and push them to your fork.
-Submit a pull request to the main repository.
+React Router: For navigation between pagesv
+Mapbox GL JS: For interactive mapping<br>
+CSS: For responsive styling<br>
+React Hook : For form in the admin panel<br>
