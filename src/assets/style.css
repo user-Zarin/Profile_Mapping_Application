@@ -1,0 +1,164 @@
+/* General Page Layout */
+.admin-page, .profile-list-page {
+    display: flex;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  /* Sections Styling */
+  .form-section, 
+  .profile-list-section, 
+  .map-container {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Profile Form Inputs */
+  .profile-form input,
+  .profile-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .profile-form textarea {
+    min-height: 80px;
+  }
+  
+  /* Form Buttons */
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-group button:first-child {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .button-group button:last-child {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  /* Profile List */
+  .profile-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: calc(100vh - 200px); /* Scrollable height for desktop */
+    overflow-y: auto;
+  }
+  
+  .profile-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .profile-item:last-child {
+    border-bottom: none;
+  }
+  
+  .action-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .action-buttons button:first-child {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .action-buttons button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Map View Container */
+  .map-view-container {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex; /* To make sure child elements are positioned properly */
+    flex-direction: column; /* Ensure the map can take up vertical space below search bar */
+  }
+  
+  .map-container {
+    padding: 10px;
+    width: 100%;
+    height: 100%;  /* Make sure the map container takes full height of the parent */
+    position: relative;
+    flex: 1; /* Allow the map to take all available space */
+  }
+  
+  
+  /* Error Message */
+  .error-message {
+    color: white;
+    background-color: #ff4d4f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: fit-content;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 768px) {
+    .admin-page, .profile-list-page {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .form-section,
+    .profile-list-section {
+      flex: none;
+      width: 100%;
+    }
+  
+    .map-container {
+      position: relative; /* Map becomes inline for smaller screens */
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+    }
+  
+    .profile-list {
+      max-height: 300px; /* Adjust scrolling height for smaller screens */
+    }
+    
+    .profile-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .action-buttons {
+      margin-top: 10px;
+      display: flex;
+      gap: 10px;
+    }
+  }
+  
