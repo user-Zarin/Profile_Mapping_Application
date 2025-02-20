@@ -4,6 +4,17 @@
 
 This project is a web application built using the React framework, designed to allow users to view a list of profiles and interactively explore the addresses of each profile on a map. It provides an intuitive and user-friendly way to navigate through profiles, visualize geographic locations, and manage profile data.
 
+### Slides
+
+<p align="center">
+  <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(216).png" width="350" title="hover text">
+   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(217).png" width="350" title="hover text">
+   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(218).png" width="350" title="hover text">
+   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(219).png" width="350" title="hover text">
+   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(220).png" width="350" title="hover text">
+   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(221).png" width="350" title="hover text">
+</p>
+
 ## Features
 
 1. **Profile Display**  
@@ -94,6 +105,8 @@ Validates input data before submission.<br>
 Provides an intuitive search bar for filtering profiles by name, location, or description.<br>
 <b>Map Component</b><br>
 Integrates with Mapbox (or Google Maps) to display interactive maps.<br>
+
+
 Dynamically updates markers based on user interaction.<br>
 <b>Technologies Used<b><br>
 React: Frontend framework
