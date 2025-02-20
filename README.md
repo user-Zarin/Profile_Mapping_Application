@@ -7,12 +7,12 @@ This project is a web application built using the React framework, designed to a
 ### Slides
 
 <p align="center">
-  <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(216).png" width="350" title="hover text">
-   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(217).png" width="350" title="hover text">
-   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(218).png" width="350" title="hover text">
-   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(219).png" width="350" title="hover text">
-   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(220).png" width="350" title="hover text">
-   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/EMS/Screenshot%20(221).png" width="350" title="hover text">
+  <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/PMS/Screenshot%20(216).png" width="350" title="hover text">
+   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/PMS/Screenshot%20(217).png" width="350" title="hover text">
+   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/PMS/Screenshot%20(218).png" width="350" title="hover text">
+   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/PMS/Screenshot%20(219).png" width="350" title="hover text">
+   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/PMS/Screenshot%20(220).png" width="350" title="hover text">
+   <img src="https://github.com/user-Zarin/Profile_Mapping_Application/blob/main/PMS/Screenshot%20(221).png" width="350" title="hover text">
 </p>
 
 ## Features
